@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Trang chủ" />
+
+    <item
+        android:id="@+id/nav_data"
+        android:icon="@drawable/ic_data"
+        android:title="Dữ liệu" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_setting"
+        android:title="Cài đặt" />
+
+    <!-- 👇 Mục Quản lý tài khoản (chỉ hiển thị cho admin) -->
+    <item
+        android:id="@+id/nav_manage_users"
+        android:icon="@drawable/ic_manage"
+        android:title="QL Tài khoản" />
+</menu>
